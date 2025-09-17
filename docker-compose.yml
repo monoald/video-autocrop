@@ -1,0 +1,19 @@
+# docker-compose.yml
+
+version: '3.8'
+
+services:
+  video-processor:
+    build: .
+    container_name: video-autocrop-api
+    ports:
+      - "8000:8000"
+    networks:
+      - main
+    volumes:
+      - ./uploads:/app/uploads
+      - ./processed:/app/processed
+
+networks:
+  main:
+    external: true
