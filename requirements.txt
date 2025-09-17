@@ -4,5 +4,5 @@ python-multipart
 
 opencv-python
 mediapipe
-moviepy
+moviepy==1.0.3
 numpy
