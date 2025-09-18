@@ -12,5 +12,5 @@ services:
       - my-network
 
 networks:
-  main:
+  my-network:
     external: true
