@@ -2,7 +2,7 @@ fastapi
 uvicorn[standard]
 python-multipart
 
-opencv-python
+opencv-python-headless
 mediapipe
 moviepy==1.0.3
 numpy

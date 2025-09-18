@@ -10,9 +10,6 @@ services:
       - "8000:8000"
     networks:
       - main
-    volumes:
-      - ./uploads:/app/uploads
-      - ./processed:/app/processed
 
 networks:
   main:
