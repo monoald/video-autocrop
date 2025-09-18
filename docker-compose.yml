@@ -1,7 +1,3 @@
-# docker-compose.yml
-
-version: '3.8'
-
 services:
   video-processor:
     build: .
@@ -9,8 +5,8 @@ services:
     ports:
       - "8000:8000"
     networks:
-      - my-network
+      - main
 
 networks:
-  my-network:
+  main:
     external: true
