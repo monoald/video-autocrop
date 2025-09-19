@@ -6,3 +6,4 @@ opencv-python-headless
 mediapipe
 moviepy==1.0.3
 numpy
+ultralytics
